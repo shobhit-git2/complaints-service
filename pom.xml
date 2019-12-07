@@ -9,10 +9,12 @@
 	<description>This service is used to handle all the complaints raised by the user.</description>
 
 	<parent>
-		<groupId>com.ibm</groupId>
-		<artifactId>complaints-service</artifactId>
-		<version>1.0</version>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.1.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
